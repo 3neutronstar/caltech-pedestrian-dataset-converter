@@ -12,6 +12,23 @@ Caltech Pedestrian Dataset Converter
 - Download dataset
  
 Download dataset `data_and_labels.zip` using following [link](https://data.caltech.edu/records/f6rph-90m20). </br>
+After unzip,
+```
+Train/
+    Train/seq*/
+        Train/seq*/
+    Train/seq*/
+        Train/seq*/
+    .....
+Test/
+    Test/seq*/
+        Test/seq*/seq*/
+    .....
+annotations/
+    annotations/annotations/
+        ~~~~
+```
+
 - Move dataset
 
 Move dataset under `<rootdir>/data` directory

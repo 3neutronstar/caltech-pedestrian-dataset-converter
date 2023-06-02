@@ -9,9 +9,14 @@ Caltech Pedestrian Dataset Converter
 - SciPy 0.16+
 
 # Caltech Pedestrian Dataset
+- Download dataset
+ 
+Download dataset `data_and_labels.zip` using following [link](https://data.caltech.edu/records/f6rph-90m20). </br>
+- Move dataset
 
+Move dataset under `<rootdir>/data` directory
 ```
-$ bash shells/download.sh
+$ bash shells/download.sh (Does not exist anymore -> Do not use this!)
 $ python scripts/convert_annotations.py
 $ python scripts/convert_seqs.py
 ```

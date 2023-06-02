@@ -9,7 +9,7 @@ from collections import defaultdict
 
 all_obj = 0
 data = defaultdict(dict)
-for dname in sorted(glob.glob('data/annotations/set*')):
+for dname in sorted(glob.glob('data/annotations/annotations/set*')):
     set_name = os.path.basename(dname)
     data[set_name] = defaultdict(dict)
     for anno_fn in sorted(glob.glob('{}/*.vbb'.format(dname))):
